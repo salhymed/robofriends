@@ -38,7 +38,10 @@ const robots = [
       id:8,
       roboName: "Joe",
       desc: "loren epsum "
-    },
+    }
 
-  ];
-  export default robots;
+  ]
+
+export {
+    robots
+};
