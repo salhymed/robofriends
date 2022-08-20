@@ -26,7 +26,7 @@ class App extends Component {
 
     componentDidMount(){
        this.props.onRequestRobots();                     
-    }
+    } 
 
     render() {
         const { searchField, onSearchChange, robots, isPending, error} = this.props;
